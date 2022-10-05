@@ -33,7 +33,7 @@ router.post('/register', async (req, res) => {
         {
             expiresIn: "2h"
         },
-        "");
+        null);
 
     users[0].token = token;
 
